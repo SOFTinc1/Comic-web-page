@@ -1,0 +1,157 @@
+.navbar{
+    margin-top: -100px;
+}
+header{
+    background: gold; 
+    position: relative;
+    height: 100px;
+    border-top: 5px solid rgb(136, 26, 26); 
+}
+header img{
+    width: 200px; 
+    border-bottom: 7px solid rgb(136, 26, 26);
+    border-top: px solid rgb(136, 26, 26);
+    margin-top: -50px;
+    margin-left: 200px;
+    transition: all .9s ease-out;
+    max-width: 100%;
+}
+header img:hover{
+    transform: scale(1.1);
+
+}
+header h4{
+    color: rgb(172, 26, 26);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: -110px;
+    margin-left: 410px;
+}
+.navbar ul li a{
+    color: rgb(172, 26, 26);
+    font-weight: bold;
+    margin-top: -40px;
+}
+.navbar ul li a:hover{
+    color: #000;
+}
+#search a{
+    background: rgb(172, 26, 26);
+    color: #fff;
+}
+#search a:hover{
+    background: #000;
+    color: #fff;
+}
+.carousel-item{
+    height: 500px;
+}
+.image1{
+    background: url('../img/1.jpg');
+    background-size: cover;
+}
+.image2{
+    background: url('../img/2.jpeg');
+    background-size: cover;
+}
+.image3{
+    background: url('../img/3.jpg');
+    background-size: cover;
+}
+#characters .card{
+    background: url('../img/maui_ab2fde37.jpeg');
+    opacity: 0.8;
+    margin-right: 30px;
+    height: 250px;
+    border: 2px solid rgb(172, 26, 26);
+    box-shadow: 0px 0px 10px 0px rgb(172, 26, 26);
+}
+#characters .card:hover{
+    background: gold;
+}
+#characters h3{
+    color: rgb(172, 26, 26);
+    margin-bottom:40px;
+}
+#characters .card img{
+    margin-top: -80px;
+    margin-left: 40px;
+	width: 120px;
+    height: 120px;
+    
+    border-left: 5px solid rgb(172, 26, 26);
+    border-top: 5px solid rgb(172, 26, 26);
+    transition: all .9s ease-out;
+    max-width: 100%;
+}
+#characters .card img:hover{
+    transform: scale(1.1);
+    border-left: none;
+    border-bottom: none;
+    border-right: 5px solid rgb(172, 26, 26);
+    border-top: 5px solid rgb(172, 26, 26);
+}
+#video h3{
+    color: rgb(172, 26, 26);
+    margin-left: 400px;
+}
+#video .card{
+    background: url('../img/maui_ab2fde37.jpeg');
+    opacity: 0.8;
+    margin-right: px;
+    border: 2px solid rgb(172, 26, 26);
+    box-shadow: 0px 0px 10px 0px rgb(172, 26, 26);
+}
+#video .card:hover{
+    background: gold;
+}
+#video .card img{
+    margin-left: 170px;
+	width: 100px;
+    height: 100px;
+    border-right: 5px solid rgb(172, 26, 26);
+}
+#video button{
+    background: rgb(172, 26, 26);
+    color: white;
+    margin-left: 47px;
+}
+#style{
+    background: rgb(224, 242, 245);
+}
+#style img{
+    width: 300px;
+    margin-left: 60px;
+}
+#style h3{
+    margin-top: 60px;
+    margin-left: 80px;
+    color: rgb(172, 26, 26);
+}
+#style p{
+    margin-left: 80px;
+}
+#style a{
+    margin-left: 80px;
+    background: rgb(172, 26, 26);
+    color: white;
+}
+#style a:hover{
+    border: 2px solid #000;
+    background: transparent;
+    color: #000;
+}
+#footer-bottom .footer_bottom{
+    text-align:center;
+    height:auto;
+}
+
+.footer_bottom .wow{
+   font-family:"futura_ltbold",sans-serif;
+   padding:20px;
+   font-size:11px;
+   color:#aaa;
+}
+video{
+    width: 100%;
+}
